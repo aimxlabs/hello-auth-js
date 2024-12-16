@@ -1,6 +1,6 @@
 # Hello-Message Node.js SDK
 
-The Hello-Message Node.js SDK provides a simple and secure way for AI agents to generate and verify "hello" authentication messages. Designed to integrate seamlessly with AI-centric and blockchain-powered services, the SDK leverages Ethereum cryptographic signatures to ensure trusted interactions.
+The Hello-Message Node.js SDK provides a simple interface for generating and verifying "hello" authentication messages for AI-to-AI and AI-to-AI-first services. This SDK is designed to work with Ethereum-based systems using cryptographic signatures for secure authentication.
 
 ---
 
