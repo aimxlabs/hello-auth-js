@@ -1,6 +1,5 @@
 // Node.js SDK for Hello-Message
 
-const crypto = require('crypto');
 const { ethers } = require('ethers');
 
 class Hello {
