@@ -1,0 +1,37 @@
+{
+  "name": "hello-message-sdk",
+  "version": "0.1.0",
+  "description": "Node.js SDK for generating and verifying 'hello' authentication messages for AI agents.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/",
+    "lint": "eslint src/"
+  },
+  "keywords": [
+    "hello-message",
+    "authentication",
+    "ethereum",
+    "sdk",
+    "ai",
+    "autonomous-agents",
+    "blockchain"
+  ],
+  "author": "Garett Rogers",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^5.7.2"
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0",
+    "chai": "^4.3.6",
+    "eslint": "^8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aimxlabs/hello-message-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aimxlabs/hello-message-node/issues"
+  },
+  "homepage": "https://github.com/aimxlabs/hello-message-node"
+}
