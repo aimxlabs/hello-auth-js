@@ -16,7 +16,7 @@
     "autonomous-agents",
     "blockchain"
   ],
-  "author": "Garett Rogers",
+  "author": "anythingmachine",
   "license": "MIT",
   "dependencies": {
     "ethers": "^5.7.2"
