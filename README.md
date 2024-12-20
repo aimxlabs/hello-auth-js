@@ -52,7 +52,7 @@ const signature = '<signature_from_hello_message>';
 const address = '<ethereum_address>';
 
 // Verify the signature
-const isValid = Hello.verifyHelloMessage(signature, address);
+const isValid = Hello.verifyHelloMessage(signature, message, address);
 console.log('Is valid:', isValid);
 ```
 
@@ -76,11 +76,12 @@ Get the Ethereum address corresponding to the private key.
 
 Generate a signed "hello" message.
 
-#### `verifyHelloMessage(signature: string, address: string) -> boolean`
+#### `verifyHelloMessage(signature: string, message: string, address: string) -> boolean`
 
 Verify the authenticity of a "hello" message signature.
 
 - `signature`: The signed "hello" message.
+- `message`: The original "hello" message with nonce.
 - `address`: The Ethereum address expected to have signed the message.
 
 Returns:
@@ -116,8 +117,6 @@ We welcome contributions from the community! To get started:
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix.
 3. Submit a pull request with a detailed description of your changes.
-
-Please read our [Contributing Guidelines](CONTRIBUTING.md) for more information.
 
 ---
 
